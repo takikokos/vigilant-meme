@@ -7,7 +7,7 @@ import numpy as np
 
 
 # t.me/TraneeBot.
-TOKEN = "1092405943:AAEHL2IJEcQDAx7a1hFMYSJxxueAzN2z5Cs"
+TOKEN = ""
 
 bot = telebot.TeleBot(TOKEN)
 redisClient = redis.Redis(host='localhost', port=6379, db=0)
